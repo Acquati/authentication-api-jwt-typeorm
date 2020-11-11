@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "name": "authentication-api-jwt-typeorm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Acquati/authentication-api-jwt-typeorm.git",
+  "author": "Leandro Acquati <leandroacquati@gmail.com>",
+  "license": "MIT"
+}
