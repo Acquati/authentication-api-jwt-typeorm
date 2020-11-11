@@ -12,7 +12,8 @@
   "author": "Leandro Acquati <leandroacquati@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn nodemon --exec ts-node src/index.ts"
+    "dev": "yarn nodemon --exec ts-node src/index.ts",
+    "typeorm": "yarn ts-node ./node_modules/typeorm/cli.js"
   },
   "dependencies": {
     "express": "^4.17.1",
