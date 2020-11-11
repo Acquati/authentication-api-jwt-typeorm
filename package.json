@@ -15,6 +15,9 @@
     "dev": "yarn nodemon --exec ts-node src/index.ts"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pg": "^8.5.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.29"
   }
 }

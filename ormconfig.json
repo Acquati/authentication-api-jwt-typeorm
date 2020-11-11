@@ -1,0 +1,14 @@
+{
+  "type": "postgress",
+  "host": "localhost",
+  "port": 5432,
+  "username": "docker",
+  "password": "docker",
+  "database": "tsauth",
+  "entities": [
+    "src/app/models/*.ts"
+  ],
+  "migrations": [
+    "src/database/migrations/*.ts"
+  ]
+}
